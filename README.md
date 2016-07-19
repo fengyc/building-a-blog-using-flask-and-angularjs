@@ -38,7 +38,7 @@ Source code of the application we are building on "Building a blog using Flask a
         cd server
         python run.py
 
-    Open a browser and navigate to `http://127.0.0.1:5000//api/v1/posts`, may see
+    Open a browser and navigate to `http://127.0.0.1:5000/api/v1/posts`, may see
 
         []
 
