@@ -10,3 +10,10 @@ pip-log.txt
 
 server/app.sqlite
 server/app/config.py
+
+# Virtualenv
+env/
+venv/
+
+# Pycharm
+.idea/
