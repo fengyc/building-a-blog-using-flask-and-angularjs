@@ -2,6 +2,8 @@
 
 Source code of the application we are building on "Building a blog using Flask and AngularJS" tutorial series
 
+See also https://github.com/Chitrank-Dixit/building-a-blog-using-flask-and-angularjs
+
 ## How to
 
 * Clone this repository
