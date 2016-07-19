@@ -12,37 +12,37 @@ Support python3 only.
 
     Run the following commands
 
-        git clone xxxxx
-        cd building-a-blog-using-flask-and-angularjs
+        $ git clone xxxxx
+        $ cd building-a-blog-using-flask-and-angularjs
 
 * Create virtualenv and install requirements
 
     Run the following commands
 
-        virtualenv -p python3 env
-        source env/bin/activate
-        pip install -r server/requirements.txt
+        $ virtualenv -p python3 env
+        $ source env/bin/activate
+        $ pip install -r server/requirements.txt
 
     And install bower components
 
-        cd client
-        bower install
+        $ cd client
+        $ bower install
 
 * Create sqlite database
 
     Create a sqlite database
 
-        cd server
-        python3 db_create.py
+        $ cd server
+        $ python3 db_create.py
 
 * Run server
 
     Start the flask server
 
-        cd server
-        python3 run.py
+        $ cd server
+        $ python3 run.py
 
-    Open a browser and navigate to `http://127.0.0.1:5000/api/v1/posts`, may see
+    Open a browser and navigate to `http://127.0.0.1:5000/api/v1/posts`, might see
 
         []
 
@@ -50,7 +50,7 @@ Support python3 only.
 
     Start a http server
 
-        cd client
-        python3 -m http.server 8000
+        $ cd client
+        $ python3 -m http.server 8000
 
     Navigate to `http://127.0.0.1:8000`
