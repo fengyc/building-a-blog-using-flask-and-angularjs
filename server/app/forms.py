@@ -5,7 +5,7 @@ from wtforms import StringField
 from wtforms.validators import DataRequired
 
 from app.server import db
-from models import User, Post
+from .models import User, Post
 
 BaseModelForm = model_form_factory(Form)
 

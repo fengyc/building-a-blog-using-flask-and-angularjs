@@ -4,6 +4,8 @@ Source code of the application we are building on "Building a blog using Flask a
 
 See also https://github.com/Chitrank-Dixit/building-a-blog-using-flask-and-angularjs
 
+Support python3 only.
+
 ## How to
 
 * Clone this repository
@@ -31,14 +33,14 @@ See also https://github.com/Chitrank-Dixit/building-a-blog-using-flask-and-angul
     Create a sqlite database
 
         cd server
-        python db_create.py
+        python3 db_create.py
 
 * Run server
 
     Start the flask server
 
         cd server
-        python run.py
+        python3 run.py
 
     Open a browser and navigate to `http://127.0.0.1:5000/api/v1/posts`, may see
 
@@ -49,6 +51,6 @@ See also https://github.com/Chitrank-Dixit/building-a-blog-using-flask-and-angul
     Start a http server
 
         cd client
-        python -m http.server 8000
+        python3 -m http.server 8000
 
     Navigate to `http://127.0.0.1:8000`
