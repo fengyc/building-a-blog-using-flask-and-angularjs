@@ -1,10 +1,10 @@
 from flask import g
 from flask.ext import restful
 
-from .server import api, db, flask_bcrypt, auth
-from .models import User, Post
-from .forms import UserCreateForm, SessionCreateForm, PostCreateForm
-from .serializers import UserSerializer, PostSerializer
+from server import api, db, flask_bcrypt, auth
+from models import User, Post
+from forms import UserCreateForm, SessionCreateForm, PostCreateForm
+from serializers import UserSerializer, PostSerializer
 
 @auth.verify_password
 def verify_password(email, password):
